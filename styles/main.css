@@ -1,0 +1,80 @@
+/* main.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Adjusted layout styles */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+}
+
+.fish-container {
+    width: calc(50% - 8px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 100%; /* Adjusted width to make fish boxes take full width */
+    box-sizing: border-box;
+    margin-bottom: 16px; /* Adjusted margin to add space between fish boxes */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.tips-container {
+    width: calc(50% - 8px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tips {
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.tips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tips li {
+    background: #f0f0f0;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.locations-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
